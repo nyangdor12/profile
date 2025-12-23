@@ -9,7 +9,8 @@ const cormorantGaramond = Cormorant_Garamond({
 
 const poppins = Poppins({
     variable: "--font-poppins",
-    weight: "300"
+    weight: "300",
+    subsets: ["latin"]
 });
 
 
