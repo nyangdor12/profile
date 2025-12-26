@@ -16,10 +16,6 @@ export default function Home() {
             <h1><div className={`${quattrocento.variable} antialiased ${styles.mainTitle}`}> A Profile</div> A Website</h1>
           </div>
 
-          <div className="navbar">
-
-          </div>
-
           <div className={styles.content}>
               <h1>content</h1>
           </div>
