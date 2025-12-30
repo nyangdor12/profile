@@ -15,19 +15,21 @@ const merienda = Merienda({
 
 export default function Home() {
   return (
-      <div className={styles.gradient}>
-        <div className={styles.page}>
+      <div className={styles.background}>
+          <div className={styles.gradient}>
+              <div className={styles.page}>
 
-            <div className={styles.header}>
-                <h1 className={`${merienda.variable} antialiased ${styles.titleFirstHalf}`}>Profile</h1>
-                <h1 className={styles.titleSecondHalf}>Website</h1>
-            </div>
-            <div className={styles.content}>
-              <h1>content</h1>
-            </div>
-            <div className={styles.leftSide}></div>
-            <div className={styles.rightSide}></div>
-        </div>
+                  <div className={styles.header}>
+                      <h1 className={`${merienda.variable} antialiased ${styles.titleFirstHalf}`}>Profile</h1>
+                      <h1 className={styles.titleSecondHalf}>Website</h1>
+                  </div>
+                  <div className={styles.content}>
+                      <h1></h1>
+                  </div>
+                  <div className={styles.leftSide}></div>
+                  <div className={styles.rightSide}></div>
+              </div>
+          </div>
       </div>
   );
 }
