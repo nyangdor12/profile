@@ -1,7 +1,27 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@font-face {
+  font-family: "Outrun";
+  src: url("../public/fonts/Outrun future Bold.otf");
+}
+
+@font-face {
+  font-family: "StillTime";
+  src: url("../public/fonts/Still Time.otf");
+}
+
+@font-face {
+  font-family: "AstronBoy";
+  src: url("../public/fonts/Astron Boy.otf");
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  min-height: 100%;
 }
