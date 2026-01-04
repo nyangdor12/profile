@@ -1,5 +1,6 @@
 import { Quattrocento, Merienda } from "next/font/google";
 import styles from "./page.module.css";
+import Card from "./_components/card";
 
 const quattrocento = Quattrocento({
     variable: "--font-quattrocento",
@@ -24,7 +25,10 @@ export default function Home() {
                       <h1 className={styles.titleSecondHalf}>Website</h1>
                   </div>
                   <div className={styles.content}>
-                      <h1></h1>
+                      <div className={styles.links}>
+
+                      </div>
+                      <Card></Card>
                   </div>
                   <div className={styles.leftSide}></div>
                   <div className={styles.rightSide}></div>
