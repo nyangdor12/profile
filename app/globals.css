@@ -24,4 +24,17 @@
 
 html, body {
   min-height: 100%;
+  font-size: 16px;
+}
+
+h1 {
+  /* clamp(MIN, PREFERRED, MAX) */
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+/* On Phones */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px; /* Everything using 'rem' just shrunk by about 12%! */
+  }
 }
