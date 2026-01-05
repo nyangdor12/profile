@@ -27,7 +27,7 @@ export default function Card () {
                     <div className="fadeIn" style={{backgroundColor: activeTab === 'about' ? '#white' : '#888'}}>
                         <h2>Hi, I’m Sein.</h2>
 
-                        I’m a developer, artist, and narrative-obsessed game enthusiast currently based in Canada. I primarily work with C++ and Java, and build websites using React, Next.js, HTML, and CSS. My relationship with C++ is… complicated — but at this point, separation is no longer an option.
+                        I’m a developer, artist, and narrative game enthusiast currently based in Canada. I primarily work with C++ and Java, and build websites using React, Next.js, HTML, and CSS. My relationship with C++ is… complicated — but at this point, separation is no longer an option.
                         <br/>
                         <br/>
                         I fell in love with Unreal Engine after playing Star Wars Jedi: Fallen Order and now focus on creating story-driven interactive experiences, inspired by games from studios like BioWare and Telltale.

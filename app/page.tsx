@@ -35,7 +35,7 @@ export default function Home() {
                               <FaGithub className={styles.icon} />
                           </a>
                           <a
-                              href="www.linkedin.com/in/sein-park-779063126"
+                              href="https://www.linkedin.com/in/sein-park-779063126/"
                               target="_blank"
                               rel="noopener noreferrer"
                           >
