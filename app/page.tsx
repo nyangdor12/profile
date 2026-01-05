@@ -1,5 +1,7 @@
 import { Quattrocento, Merienda } from "next/font/google";
+import { FaGithub, FaLinkedin, FaArchive } from "react-icons/fa";
 import styles from "./page.module.css";
+import Card from "./_components/card";
 
 const quattrocento = Quattrocento({
     variable: "--font-quattrocento",
@@ -24,7 +26,30 @@ export default function Home() {
                       <h1 className={styles.titleSecondHalf}>Website</h1>
                   </div>
                   <div className={styles.content}>
-                      <h1></h1>
+                      <div className={styles.links}>
+                          <a
+                              href="https://github.com/nyangdor12"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                          >
+                              <FaGithub className={styles.icon} />
+                          </a>
+                          <a
+                              href="www.linkedin.com/in/sein-park-779063126"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                          >
+                              <FaLinkedin className={styles.icon}/>
+                          </a>
+                          <a
+                              href="https://www.postype.com/@yeonjhe"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                          >
+                              <FaArchive className={styles.icon}/>
+                          </a>
+                      </div>
+                      <Card></Card>
                   </div>
                   <div className={styles.leftSide}></div>
                   <div className={styles.rightSide}></div>
